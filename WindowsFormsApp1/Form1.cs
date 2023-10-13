@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
-            label1.Text = Convert.ToInt32(Cursor.Position.X);
+            label1.Text = Convert.ToString(Cursor.Position.X);
         }
     }
 }
